@@ -1,10 +1,10 @@
 #!/bin/bash
 #random set of 2000 unrelated individuals selected from UKBB. 
 python $HOME/ldpred/LDpred.py --debug coord \
-    --gf=../step1_inputs/random.ukbb.2000 \
-    --ssf=MEGASTROKE_AIS.tsv \
+    --gf=../ukbb_random_2k/chroms/random.ukbb.2000.$1 \
+    --ssf=MEGASTROKE_AIS.tsv.$1 \
     --N=446696 \
-    --out=step1_ldpred_UKBB_random \
+    --out=step1_ldpred_UKBB_random.$1 \
     --ssf-format="STANDARD" \
     --rs=rs \
     --A1=alt \
@@ -15,6 +15,5 @@ python $HOME/ldpred/LDpred.py --debug coord \
     --reffreq=reffrq \
     --pval=pval \
     --eff=effalt
-
 
 
