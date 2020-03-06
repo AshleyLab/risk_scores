@@ -1,0 +1,1 @@
+sbatch -J step1_CES_per_chrom -o /oak/stanford/groups/euan/projects/risk_scores/ldpred_CES/step1/per_chromosome/code/logs/step1_CES_per_chrom.o -e /oak/stanford/groups/euan/projects/risk_scores/ldpred_CES/step1/per_chromosome/code/logs/step1_CES_per_chrom.e -p euan,owners --mem=30G -t 1-0 step1_CES_per_chrom.sh 

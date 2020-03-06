@@ -1,0 +1,1 @@
+sbatch -J step3_random_all -o logs/step3_random_all.o -e logs/step3_random_all.e -p euan,owners --mem=30G -t 1-0 step3_UKBB_random_all_fractions.sh

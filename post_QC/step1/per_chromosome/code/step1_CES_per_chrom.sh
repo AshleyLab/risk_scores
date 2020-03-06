@@ -1,0 +1,2 @@
+#!/bin/bash
+python ~/ldpred/LDpred.py --debug coord --gf=/oak/stanford/groups/euan/projects/risk_scores/ukbb_random_2k/chroms/random.ukbb.2000.$1 --ssf=/oak/stanford/groups/euan/projects/risk_scores/ldpred_CES/step1/GWAS_SS_CES.tsv.$1 --N=446696 --out=/oak/stanford/groups/euan/projects/risk_scores/ldpred_CES/step1/per_chromosome/output/step1_CES_per_chrom.$1 --ssf-form="STANDARD" --rs=rs --A1=alt --A2=ref --pos=pos --info=infoo --chr=chr --reffreq=reffrq --pval=pval --eff=effalt

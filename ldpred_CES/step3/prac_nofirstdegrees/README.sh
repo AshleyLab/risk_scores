@@ -1,0 +1,1 @@
+# This is a folder where I run step3 of ldpred using the afib plink/genotype files that had first degree relatives removed (which we don't have to do). In the other folder (cd ..), I will run step 3 of afib genotype/plink files *with* first degree relatives
