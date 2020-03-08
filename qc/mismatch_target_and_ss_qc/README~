@@ -1,0 +1,6 @@
+Run target /ss mismatch qc , as in this tutorial: mismatch_target_and_ss_qc_AIS.R
+mismatch_target_and_ss_qc_MEGASTROKE.R
+remove_mismatch_ais_target.sh
+remove_mismatch_megastroke_target.sh
+remove_mismatch_ais_ss.py
+remove_mismatch_megastroke_ss.py

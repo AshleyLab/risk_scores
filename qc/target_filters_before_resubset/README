@@ -1,0 +1,7 @@
+Apply suggested filters from https://choishingwan.github.io/PRS-Tutorial/target/ to afib plink dataset. 
+
+Execute: 
+all_filters.sh
+
+After modoifiying the --geno & --mind filters based on analysis in "../check_missingness_and_geno" and "resubset", we run a modified filter set: 
+modified_filters.sh

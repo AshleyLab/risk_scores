@@ -1,0 +1,16 @@
+Run target /ss mismatch qc , as in this tutorial: 
+
+#run qc to identify mismatched snps in MEGASTROKE SS dataset
+mismatch_target_and_ss_qc_MEGASTROKE.R
+#remove mismatched snps from plink file 
+remove_mismatch_megastroke_target.sh
+#remove mismatched snps from ss file 
+remove_mismatch_megastroke_ss.py
+
+#run qc to identify mismatched snps in AIS SS dataset
+mismatch_target_and_ss_qc_AIS.R
+#remove mismatched snps from plink file 
+remove_mismatch_ais_target.sh
+#remove mismatched snps from ss file 
+remove_mismatch_ais_ss.py
+
