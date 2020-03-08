@@ -1,4 +1,4 @@
-Run target /ss mismatch qc , as in this tutorial: 
+Run target /ss mismatch qc , as in this tutorial: https://choishingwan.github.io/PRS-Tutorial/target/#35-mismatching-snps
 
 #run qc to identify mismatched snps in MEGASTROKE SS dataset
 mismatch_target_and_ss_qc_MEGASTROKE.R
